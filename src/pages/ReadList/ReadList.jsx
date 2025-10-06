@@ -29,7 +29,7 @@ const ReadList = () => {
                 </TabList>
 
                 <TabPanel>
-                    <div className='grid grid-cols-3 py-8'>
+                    <div className='max-w-[1440px] mx-auto grid grid-cols-3 py-8'>
                       {
                         readList.map((perBook)=><Book key={perBook.bookId} singleBook={perBook}></Book>)
                       }
